@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: darkmagenta;
+    font-family: 'Salsa', cursive;
+}
+.navContainer{
+  background-image: url(images/download\ \(1\).jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.nav-link{
+    font-family: 'Roboto', sans-serif !important;
+    /* justify-content: space-between; */
+    color:black!important;
+    font-size: 25px;
+    /* width: 100%; */
+}
+.homeContainer h1{
+    font-family: 'Roboto', sans-serif !important;
+    margin: 0;
+  font-size: 50px;
+  color: rgba(225,225,225, .01);
+  background-image: url("https://images.unsplash.com/photo-1499195333224-3ce974eecb47?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2cf549433129d4227d1879347b9e78ce&auto=format&fit=crop&w=1248&q=80");
+  background-repeat: repeat;
+  -webkit-background-clip:text;
+  animation: animate 15s ease-in-out infinite;
+  /* text-align: center; */
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+  @keyframes animate {
+    0%, 100% {
+      background-position: left top;
+    }
+    25%{
+      background-position: right bottom;
+     }
+    50% {
+      background-position: left bottom;
+    }
+    75% {
+      background-position: right top;
+    }
+}
+.navContainer .nav-item a:hover{
+    color: cadetblue !important;
+    border-bottom: 2px solid aqua;
+}
+.homeContainer img{
+    width: 400px !important;
+}
+.nav a{
+    color:darkcyan !important;
+    font-size: 25px;
+}
+.aboutContainer img{
+    width: 400px !important;
+}
+ .nav-item button{
+  background-color: #302b63 !important;
+    color: white !important;
+} 
+.nav-item button:hover{
+    color: white !important;
+    background-color: crimson !important;
+}
